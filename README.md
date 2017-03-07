@@ -10,6 +10,12 @@
 ### Vue
 
 * [插件](/vue-.md)
+* [vue-router 2.0](/vue-router-2.o.md)
+* [生命周期](/.md.md)
+
+### JS
+
+* [基本语法](/js-.md)
 
 ### 链接
 
