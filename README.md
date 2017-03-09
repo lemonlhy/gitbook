@@ -12,14 +12,19 @@
 * [插件](/vue-.md)
 * [vue-router 2.0](/vue-router-2.o.md)
 * [生命周期](/.md.md)
+* [vuex](/vuex.md)
 
 ### JS
 
-* [基本语法](/js-.md)
+* [面向对象](/js-oop.md)
 
 ### 链接
 
 * [vue-awesome社区](https://github.com/vuejs/awesome-vue)
-* 
+
+### 面试
+
+* [简书5篇](http://www.jianshu.com/p/f60b619aa52b)
+
 
 

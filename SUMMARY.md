@@ -6,5 +6,6 @@
 * [let和const命令](letconst.md)
 * [vue-router 2.0](vue-router-2.o.md)
 * [vue-生命周期.md](.md.md)
-* [js-基本语法](js-.md)
+* [vuex](vuex.md)
+* [js-oop](js-oop.md)
 
