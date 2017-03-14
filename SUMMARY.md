@@ -8,4 +8,5 @@
 * [vue-生命周期.md](.md.md)
 * [vuex](vuex.md)
 * [js-oop](js-oop.md)
+* [angular基础知识点](angular.md)
 
