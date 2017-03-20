@@ -17,6 +17,7 @@
 ### JS
 
 * [面向对象](/js-oop.md)
+* 数据类型
 
 ### 链接
 
@@ -27,8 +28,6 @@
 * [简书5篇](http://www.jianshu.com/p/f60b619aa52b)
 
 ### Angular
-
-
 
 
 

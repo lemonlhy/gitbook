@@ -9,4 +9,5 @@
 * [vuex](vuex.md)
 * [js-oop](js-oop.md)
 * [angular基础知识点](angular.md)
+* [js-数据类型](js-.md)
 
