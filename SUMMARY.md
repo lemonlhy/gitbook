@@ -10,4 +10,7 @@
 * [js-oop](js-oop.md)
 * [angular基础知识点](angular.md)
 * [js-数据类型](js-.md)
+* [js](js.md)
+  * [array-数组](js/array-.md)
+  * [function-函数](js/function.md)
 

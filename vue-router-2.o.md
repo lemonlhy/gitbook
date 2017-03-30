@@ -49,7 +49,6 @@ const router = new VueRouter({
 const app = new Vue({
   router
 }).$mount('#app')
-
 ```
 
 > 注意：提醒一下，当使用路由参数时，例如从/user/foo导航到user/bar，**原来的组件实例会被复用**。因为两个路由都渲染同个组件，比起销毁再创建，复用则显得更加高效。**不过，这也意味着组件的生命周期钩子不会再被调用**
@@ -76,6 +75,10 @@ const app = new Vue({
     ]
   })
   ```
+
+# 快速入门
+
+[http://www.cnblogs.com/axl234/p/5899952.html](http://www.cnblogs.com/axl234/p/5899952.html)
 
 
 
