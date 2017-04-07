@@ -14,5 +14,6 @@
   * [function-函数](js/function.md)
   * [js-运算符](js/js-.md)
   * [object](js/object.md)
+  * [array](js/array.md)
 * [js-数据类型](js-.md)
 
