@@ -20,4 +20,5 @@
   * [01node-基础](node/node-.md)
   * [02node-代码的组织和部署](node/02node-.md)
   * [03node-模块机制](node/03.md)
+  * [04node-文件操作](node/03node-.md)
 
