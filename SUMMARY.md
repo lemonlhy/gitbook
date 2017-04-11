@@ -9,7 +9,7 @@
 * [vuex](vuex.md)
 * [js-oop](js-oop.md)
 * [angular基础知识点](angular.md)
-* [js](js.md)
+* [js-基础](js.md)
   * [array-数组](js/array-.md)
   * [function-函数](js/function.md)
   * [js-运算符](js/js-.md)
