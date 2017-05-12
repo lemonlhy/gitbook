@@ -47,7 +47,7 @@ children:[
 #### 3.1 name
 
 * 有子路由的name是没用的
-* &lt;p&gt;{{ $route.name}}&lt;/p&gt;
+* 
 
 
 
