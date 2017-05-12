@@ -21,6 +21,33 @@ export default new Router({
 #### 1.3 router-link
 
 * 相当于a标签
-* 
+
+`<router-link`**`to`**`="/">[显示字段]</router-link>`
+
+to：填写router/index.js文件配置的path值
+
+### 2.配置子路由
+
+* App.vue
+
+* components目录
+
+* router/index.js
+
+```js
+children:[
+{path:'/',component:xxx},
+{path:'xx',component:xxx},
+]
+//后面的子集不用加‘/’
+```
+
+### 3.传递参数
+
+#### 3.1 name
+
+* 有子路由的name是没用的
+* &lt;p&gt;{{ $route.name}}&lt;/p&gt;
+
 
 
