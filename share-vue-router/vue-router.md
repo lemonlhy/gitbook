@@ -80,7 +80,7 @@ children:[
 
 ### 5.利用url传递参数
 
-* ：号传递
+* :号传递
 * src/router/index.js 配置路由
 * 传递的数值在 {{$route.params.showId}}
 * 可以使用正则规定传递的数组 path:'/params/:showId\(\\d+\)/:name'
