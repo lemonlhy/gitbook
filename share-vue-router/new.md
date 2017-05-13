@@ -105,14 +105,12 @@ children:[
 ### 7.alias别名的使用
 
 * 路径名更改
-* 根目录更改是没用的
+* 根目录'/'更改是没用的
 
 ```js
 //src/router/index.js
 alias:'/test01alias'
 ```
-
-
 
 
 
