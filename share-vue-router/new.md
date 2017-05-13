@@ -87,7 +87,30 @@ children:[
 
 ### 6.重定向 -redirect
 
+* 设置的路径不一致，但希望跳到同一个页面
+* 直接改变路径值
 
+```js
+//src/router/index.js
+{
+    path: '/backhome',
+    redirect:'/'
+},
+{
+    path: '/goparmas/:showId(\\d+)/:name',
+    redirect:'/params/:showId(\\d+)/:name'
+},
+```
+
+### 7.alias别名的使用
+
+* 路径名更改
+* 根目录更改是没用的
+
+```js
+//src/router/index.js
+alias:'/test01alias'
+```
 
 
 
