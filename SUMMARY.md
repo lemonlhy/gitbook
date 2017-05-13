@@ -31,4 +31,5 @@
 * [vue](share-vue-router.md)
   * [vue-router](share-vue-router/vue-router.md)
   * [vue-cli](share-vue-router/vue-cli.md)
+  * [new](share-vue-router/new.md)
 
