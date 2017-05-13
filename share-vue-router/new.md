@@ -112,5 +112,34 @@ children:[
 alias:'/test01alias'
 ```
 
+#### 8.路由过度动画
+
+* transition标签实现动画
+* css过渡类名
+
+> 1. fade-enter:进入过渡的开始状态，元素被插入时生效，只应用一帧后立刻删除。
+> 2. fade-enter-active:进入过渡的结束状态，元素被插入时就生效，在过渡过程完成后移除。
+> 3. fade-leave:离开过渡的开始状态，元素被删除时触发，只应用一帧后立刻删除。
+> 4. fade-leave-active:离开过渡的结束状态，元素被删除时生效，离开过渡完成后被删除。
+
+```css
+//App.vue
+<style>
+.fade-enter {
+  opacity:0;
+}
+.fade-leave{
+  opacity:1;
+}
+.fade-enter-active{
+  transition:opacity .5s;
+}
+.fade-leave-active{
+  opacity:0;
+  transition:opacity .5s;
+}
+</style>
+```
+
 
 
