@@ -22,7 +22,7 @@ export default new Router({
 
 * 相当于a标签
 
-`<router-linkto="/">[显示字段]</router-link>`
+`<router-link to="/">[显示字段]</router-link>`
 
 to：填写router/index.js文件配置的path值
 
@@ -161,7 +161,7 @@ alias:'/test01alias'
 >
 > 2.hash：url有\#号键的hash值
 
-* 404
+* #### 404
 
 ```js
 ///src/router/index.js
@@ -173,7 +173,63 @@ alias:'/test01alias'
 
 ### 10.路由中的钩子
 
+* 进路由之前
+* 离开路径之前
+* 路由配置文件里  
 
+```js
+//src/router/index.js
+{
+    path: '/params/:showId(\\d+)/:name',
+    component:params,
+    beforeEnter:(to,from,next)=>{
+      console.log(to);
+      console.log(form);
+      next();
+    }
+},
+
+// to:路由将要跳转的路径信息
+// form:跳转前的路径信息
+// next:控制参数
+```
+
+* 模板中的钩子函数
+
+```js
+//test02.vue
+ beforeRouteEnter: (to, from, next) => {
+    console.log('准备进入路由模板');
+    next();
+  },
+  beforeRouteLeave: (to, from, next) => {
+    console.log('准备离开路由模板');
+    next();    
+  }
+```
+
+### 11.编程式导航
+
+* this.$router.go\(-1\)
+
+```js
+  methods:{
+    goBack(){
+      this.$router.go(-1);
+    },
+    goInto(){
+      this.$router.go(1);
+    }
+  }
+```
+
+* this.$router.push\(‘/xxx ‘\)
+
+```js
+ goHome(){
+      this.$router.push('/');
+    }
+```
 
 
 
