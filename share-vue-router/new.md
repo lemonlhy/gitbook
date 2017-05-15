@@ -115,6 +115,13 @@ alias:'/test01alias'
 #### 8.路由过度动画
 
 * transition标签实现动画
+
+```
+<transition name="fade">
+  <router-view ></router-view>
+</transition>
+```
+
 * css过渡类名
 
 > 1. fade-enter:进入过渡的开始状态，元素被插入时生效，只应用一帧后立刻删除。
@@ -140,6 +147,33 @@ alias:'/test01alias'
 }
 </style>
 ```
+
+* 过渡模式mode
+
+> 1. in-out :新元素先进入，完成后当前元素离开过渡（默认）
+> 2. out-in:当前元素先离开，离开完后新元素过渡进入
+
+### 9.mode设置和404处理
+
+* mode有两个值
+
+> 1.histroy：url正常显示，没有\#号
+>
+> 2.hash：url有\#号键的hash值
+
+* 404
+
+```js
+///src/router/index.js
+{
+   path:'*',//*代表404
+   component:Error
+}
+```
+
+### 10.路由中的钩子
+
+
 
 
 
