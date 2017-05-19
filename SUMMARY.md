@@ -30,5 +30,7 @@
 * [English](english.md)
 * [vue](share-vue-router.md)
   * [vue-cli](share-vue-router/vue-cli.md)
-  * [new](share-vue-router/new.md)
+  * [vue-router](share-vue-router/new.md)
+  * [vue API](share-vue-router/vue-api.md)
+  * [vuex](share-vue-router/vuex.md)
 

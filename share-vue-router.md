@@ -1,5 +1,7 @@
 * # [vue-cli](#vue-cli)
-* # [vue-router](#vue-router)
+* # [vue-router](/share-vue-router/new.md)
+* # [vue API](/share-vue-router/vue-api.md)
+* # vuex
 
 
 
