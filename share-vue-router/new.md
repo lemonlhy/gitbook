@@ -75,7 +75,7 @@ children:[
     left:test01,
     right:test02
   }
- } 
+ }
 ```
 
 ### 5.利用url传递参数

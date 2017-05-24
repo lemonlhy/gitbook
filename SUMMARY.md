@@ -33,4 +33,7 @@
   * [vue-router](share-vue-router/new.md)
   * [vue API](share-vue-router/vue-api.md)
   * [vuex](share-vue-router/vuex.md)
+* [es6](es6.md)
+  * let和const
+  * [introduction](es6/introduction.md)
 
