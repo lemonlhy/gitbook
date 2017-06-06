@@ -89,7 +89,129 @@ computed:mapState(["count"])
 
 ### 3.Mutations修改状态
 
+* $store.commit\(\)
 
+```
+<button @click="$store.commit('add')">+</button>
+<button @click="$store.commit('reduce')">-</button>
+
+const mutations={
+    add(state){
+        state.count++;
+    },
+    reduce(state){
+        state.count--;
+    }
+}
+```
+
+* 传值
+
+```
+<button @click="$store.commit('add'，1)">+</button>
+
+const mutations={
+    add(state,n){
+        state.count+=n;
+    },
+    reduce(state){
+        state.count--;
+    }
+}
+```
+
+* 模板获取mutations方法
+
+```
+//引入mapMutations
+import { mapState,mapMutations } from 'vuex';
+
+//添加script
+methods:mapMutations([
+    'add','reduce'
+])
+
+//采用简便写法
+<button @click="reduce">-</button>
+```
+
+### 4.getters
+
+* 过滤计算
+
+```js
+const getters={
+      count:state=>state.count+=10;
+}
+export default new Vuex.Store({
+  state,
+  mutations,
+  getters
+})
+
+//computed只能有一个属性，多写只能最后一个能用，需要加上展开运算符‘...’
+computed:{
+  ...mapState(["count"]),
+  count(){
+    retutn this.$store.getters.count;
+  }
+}
+//或者mapGetters简化模板
+import { mapState,mapMutations,mapGetters } from 'vuex';
+...mapGetters(["count"])
+```
+
+### 5.actions
+
+* actions是异步，mutations是同步
+* ~~几点疑惑：store到底代表什么。commit对象代表什么~~
+
+```
+//声明
+const actions = {
+  addAction(context){
+    context.commit('add',10);    
+  },
+  reduceAction({commit}){
+    commit('reduce');
+  }
+}
+//使用
+<p>
+  <button @click="addAction">+</button>
+  <button @click="reduceAction">-</button>
+</p>
+methods:{
+    ...mapMutations([  
+        'add','reduce'
+    ]),
+    ...mapActions(['addAction','reduceAction'])
+}
+//异步检验
+setTimeOut(()=>{context.commit(reduce)},3000);
+console.log('我比reduce提前执行');
+```
+
+### 6.module（项目不复杂不建议用）
+
+```
+const moduleA={
+    state,mutations,getters,actions
+}
+export default new Vuex.Store({
+    modules:{a:moduleA}
+})
+
+
+
+<h3>{{$store.state.a.count}}</h3>
+//想以前的方式直接count
+computed:{
+    count(){
+        return this.$store.state.a.count;
+    }
+},
+```
 
 
 
