@@ -213,5 +213,14 @@ computed:{
 },
 ```
 
+### 7.vuex api
+
+* state 驱动应用的数据源，单一状态树，每个应用仅包含一个store实例
+* view 以声明方式将state映射到视图
+* actions 响应view上用户输入导致的状态变化
+* ![](/assets/vuex01.png)
+
+* store 仓库，包含大部分状态state
+
 
 

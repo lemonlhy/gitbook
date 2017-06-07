@@ -13,8 +13,10 @@
   * [array-数组](js/array-.md)
   * [function-函数](js/function.md)
   * [js-运算符](js/js-.md)
-  * [object](js/object.md)
   * [array](js/array.md)
+  * js-标准库
+    * [b-属性描述对象](js/bshu-xing-miao-shu-dui-xiang.md)
+    * [object](js/object.md)
 * [js-数据类型](js-.md)
 * [node](node.md)
   * [01node-基础](node/node-.md)
