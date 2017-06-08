@@ -13,6 +13,7 @@
 * [vue-router 2.0](/vue-router-2.o.md)
 * [生命周期](/.md.md)
 * [vuex](/vuex.md)
+* [vue总览](/share-vue-router.md)
 
 ### JS
 
@@ -32,10 +33,6 @@
 ### Angular
 
 ### FreeCodeCamp
-
-
-
-
 
 ### [node](/node.md) - 《7天学会》ps：一些基础知识
 
