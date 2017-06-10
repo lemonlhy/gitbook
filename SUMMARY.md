@@ -6,7 +6,6 @@
 * [let和const命令](letconst.md)
 * [vue-router 2.0](vue-router-2.o.md)
 * [vue-生命周期.md](.md.md)
-* [vuex](vuex.md)
 * [js-oop](js-oop.md)
 * [angular基础知识点](angular.md)
 * [js-基础](js.md)
@@ -36,7 +35,7 @@
   * [vue API](share-vue-router/vue-api.md)
   * [vuex](share-vue-router/vuex.md)
 * [es6](es6.md)
-  * let和const
+  * [let和const](es6/lethe-const.md)
   * [introduction](es6/introduction.md)
 * [css](css.md)
 
