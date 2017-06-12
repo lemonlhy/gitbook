@@ -6,9 +6,7 @@
 
 ### [3.运算符](/js/js-.md)
 
-### [4.Object](/js/object.md)
-
-### [5.Array](/js/array.md)
+### [5.js标准库](/js/jsbiao-zhun-ku.md)
 
 
 

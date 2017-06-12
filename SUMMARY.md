@@ -13,7 +13,7 @@
   * [function-函数](js/function.md)
   * [js-运算符](js/js-.md)
   * [array](js/array.md)
-  * js-标准库
+  * [js-标准库](js/jsbiao-zhun-ku.md)
     * [b-属性描述对象](js/bshu-xing-miao-shu-dui-xiang.md)
     * [object](js/object.md)
 * [js-数据类型](js-.md)
