@@ -22,19 +22,21 @@
 * [js 完全讲解](/js.md)
 * [node概述](/node-.md)
 
-### 链接
+### 移动web
 
+* ### 链接
 * [vue-awesome社区](https://github.com/vuejs/awesome-vue)
 
 ### 面试
 
 * [简书5篇](http://www.jianshu.com/p/f60b619aa52b)
 
-### Angular
+#### [node](/node.md) - 《7天学会》ps：一些基础知识
 
-### FreeCodeCamp
+### 工作项目总结：（自转新部门后项目，不含07/06前）
 
-### [node](/node.md) - 《7天学会》ps：一些基础知识
+1. http://yx.zbj.com/subject/exhibitions 会展外投页
+2. http://yx.zbj.com/subject/baidumobile 百度四件套
 
 
 
