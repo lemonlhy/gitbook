@@ -50,4 +50,7 @@
   * [introduction](es6/introduction.md)
 * [css](css.md)
 * [移动web](yi-dong-web.md)
+* [js深入](jsshen-ru.md)
+  * [01](jsshen-ru/01.md)
+  * [02作用域](jsshen-ru/02zuo-yong-yu.md)
 

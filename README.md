@@ -21,6 +21,7 @@
 * 数据类型
 * [js 完全讲解](/js.md)
 * [node概述](/node-.md)
+* [深入系列 ](/jsshen-ru.md)
 
 ### 移动web
 
@@ -35,8 +36,8 @@
 
 ### 工作项目总结：（自转新部门后项目，不含07/06前）
 
-1. http://yx.zbj.com/subject/exhibitions 会展外投页
-2. http://yx.zbj.com/subject/baidumobile 百度四件套
+1. [http://yx.zbj.com/subject/exhibitions](http://yx.zbj.com/subject/exhibitions) 会展外投页
+2. [http://yx.zbj.com/subject/baidumobile](http://yx.zbj.com/subject/baidumobile) 百度四件套
 
 
 
