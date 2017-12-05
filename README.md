@@ -39,5 +39,9 @@
 1. [http://yx.zbj.com/subject/exhibitions](http://yx.zbj.com/subject/exhibitions) 会展外投页
 2. [http://yx.zbj.com/subject/baidumobile](http://yx.zbj.com/subject/baidumobile) 百度四件套
 
+杂篇：
 
+[1.js杂项](/poingt-js.md)
+
+[2.github 收集的项目](/pointkuang-jia.md)
 

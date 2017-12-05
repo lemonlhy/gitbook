@@ -54,4 +54,6 @@
 * [js深入](jsshen-ru.md)
   * [01](jsshen-ru/01.md)
   * [02作用域](jsshen-ru/02zuo-yong-yu.md)
+* [point-js](poingt-js.md)
+* [point-github](pointkuang-jia.md)
 
