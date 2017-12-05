@@ -45,6 +45,7 @@
   * [vue-router](share-vue-router/new.md)
   * [vue API](share-vue-router/vue-api.md)
   * [vuex](share-vue-router/vuex.md)
+  * [use-风格](share-vue-router/usefeng-ge.md)
 * [es6](es6.md)
   * [let和const](es6/lethe-const.md)
   * [introduction](es6/introduction.md)
